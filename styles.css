@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #1f2937;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+body {
+    font-family: Lato, sans-serif;
+    color: whitesmoke;
+    line-height: 1.6;
+    padding: 50px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.993);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0px 100px;
+}
+
+img {
+    width: 65%;
+}
+/* Navbar */
+
+.navbar {
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a {
+    color: whitesmoke;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px whitesmoke solid;
+}
+.navbar .flex{
+    justify-content: space-between;
+}
+
+/* Showcase */
+.showcase {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    max-width: 1100;
+
+}
+
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase p {
+    margin: 20px 0px;
+}
+
+.showcase .grid {
+    grid-template-columns: 50% 45%;
+    gap: 50px
+}
+
+/* Box */
+
+.box-title {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    background-color: white;
+}
+
+.instruments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+/* Thor */
+
+.thor {
+    color: black;
+    background-color: #e5e7eb;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    height: 400px;
+}
+
+p.author {
+    display: flex;
+    justify-content: end;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+/* Card */
+
+.action {
+    background-color: rgb(4, 134, 255);
+    border: 100px solid white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.action .card {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.footer {
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 100px;
+}
+;
+
+
+/* Utilities */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+button:hover{
+    cursor: pointer;
+    color:rgb(226, 198, 43);
+    
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    background: blueviolet;
+    color: white;
+    padding: 8px;
+}
