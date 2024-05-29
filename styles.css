@@ -12,7 +12,7 @@
 
 body {
     font-family: Lato, sans-serif;
-    color: whitesmoke;
+    color: #f9FAF8;
     line-height: 1.6;
     padding: 50px;
     margin: 0px;
@@ -31,7 +31,7 @@ a {
 
 h1,
 h2 {
-    font-weight: 300;
+    font-weight: 1200;
     line-height: 1.2;
     margin: 0px 100px;
 }
@@ -106,7 +106,7 @@ button {
 }
 
 
-/* Thor */
+/* Quote */
 
 .quote {
     background-color: #E5E7EB;
@@ -159,22 +159,33 @@ button {
     flex-direction: column;
     height: 100px;
     width: 450px;
-    background-color: rgb(0, 153, 255);
+    background-color: #3882f6;
     border-top-left-radius: 8px; 
     border-bottom-left-radius: 8px;
    
 }
 
+h3 {
+    margin-left: 100px;
+    font-size: 20px;
+}
 .two {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100px;
     width: 450px;
-    background-color: rgb(0, 153, 255);
+    background-color: #3882f6;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+.two .btn {
+    border: 2px solid white;
+    border-radius: 8px;
+
+    color: white;
+    padding: 8px;
+} 
 
 /* Utilities */
 .container {
@@ -210,7 +221,7 @@ button:hover{
 .btn {
     border: none;
     border-radius: 8px;
-    background: blueviolet;
+    background: #3882f6;
     color: white;
     padding: 8px;
 }
